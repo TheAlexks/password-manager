@@ -3,14 +3,14 @@
 I am learning C, so I decided to make something that is kinda intermediate.
 
 ## How to install?
-```shell
-gcc -o main.c <name of the binary>
-```
+Git clone the repo and run `configure.sh`.<br/>
+The script will compile `main.c` and copy the binary to `/usr/bin`.
 
 ## Usage
 ```shell
-./<name of the binary> <register/delete/open>
+pm <register/delete/open>
 ```
+<br/>
 
 `register` - make a new entry<br/>
 `delete` - delete an entry<br/>
