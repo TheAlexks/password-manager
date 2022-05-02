@@ -17,5 +17,5 @@ gcc -o main.c <name of the binary>
 `open` - open an entry<br/>
 
 ## NOTE
-Passwords are not encrypted.<br/>
+Passwords are **not encrypted**.<br/>
 Encryption will be added *soon*.
