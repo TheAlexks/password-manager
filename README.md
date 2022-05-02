@@ -12,10 +12,10 @@ gcc -o main.c <name of the binary>
 ./<name of the binary> <register/delete/open>
 ```
 
-`register` - make a new entry
-`delete` - delete an entry
-`open` - open an entry
+`register` - make a new entry<br/>
+`delete` - delete an entry<br/>
+`open` - open an entry<br/>
 
 ## NOTE
-Passwords are not encrypted. 
+Passwords are not encrypted.<br/>
 Encryption will be added soon.
