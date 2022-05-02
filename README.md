@@ -2,7 +2,7 @@
 
 I am learning C, so I decided to make something that is kinda intermidiate.
 
-## How to install????
+## How to install?
 ```shell
 gcc -o main.c <name of the binary>
 ```
