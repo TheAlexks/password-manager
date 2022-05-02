@@ -18,4 +18,4 @@ gcc -o main.c <name of the binary>
 
 ## NOTE
 Passwords are not encrypted.<br/>
-Encryption will be added soon.
+Encryption will be added *soon*.
