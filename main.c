@@ -1,5 +1,4 @@
 #include <stdio.h>
-//#include "passwd_funcs.h"
 #include <dirent.h>
 #include <string.h>
 
@@ -121,22 +120,21 @@ int main(int argc, char **argv){
         printf("register, delete, open\n");
     }
 
-    char option[50];
+    char option[9];
 
-    strcpy(option, argv[1]);
-    int result_register = strcmp(option, "register");
-    int result_delete = strcmp(option, "delete");
-    int result_open = strcmp(option, "open");
+    size_t option_length = sizeof(option);
 
-    if(result_register == 0)
+    strncpy(option, argv[1], option_length);
+
+    if((strcmp(option, "register")) == 0)
     {
         registerCommand();
     }
-    else if(result_delete == 0)
+    else if(strcmp(option, "delete") == 0)
     {
         delete_entry();
     }
-    else if(result_open == 0)
+    else if(strcmp(option, "open") == 0)
     {
         open_entry();
     }
