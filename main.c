@@ -121,7 +121,7 @@ int main(int argc, char **argv){
         printf("register, delete, open\n");
     }
 
-    char option[50];
+    char option[9];
 
     strcpy(option, argv[1]);
     int result_register = strcmp(option, "register");
